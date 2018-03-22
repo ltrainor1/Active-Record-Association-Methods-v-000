@@ -8,6 +8,6 @@ class Song < ActiveRecord::Base
   end
 
   def drake_made_this
-    drake.songs << self 
+    drake.songs << self
   end
 end
